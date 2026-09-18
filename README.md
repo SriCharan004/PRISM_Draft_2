@@ -335,7 +335,7 @@ Licensed under MPL-2.0 (see `LICENSE`).
 ```
 Wootla Satya Sai Sri Charan, Mudigonda Satya Sai, Rohan Yashraj Gupta, KVS Kasyap,
 & Sivateja Arunachala (2026). PRISM: Predictor and Indicator Sequential Monitoring
-for Anticipating Loss-Cost Trend Inflections. CAS E-Forum (forthcoming).
+for Anticipating Loss-Cost Trend Inflections.
 ```
 
 Sri Sathya Sai Institute of Actuarial Sciences (SSSIA).
