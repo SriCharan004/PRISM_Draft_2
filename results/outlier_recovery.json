@@ -1,0 +1,10 @@
+{
+  "outlier_up": {
+    "reacted": 0.6225,
+    "persist_given_reacted": 0.2570281124497992
+  },
+  "outlier_down": {
+    "reacted": 0.515,
+    "persist_given_reacted": 0.09223300970873786
+  }
+}

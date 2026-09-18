@@ -1,0 +1,30 @@
+{
+  "sweep": [
+    {
+      "z": 2.0,
+      "consec": 2,
+      "detect": 0.604,
+      "false": 0.21
+    },
+    {
+      "z": 2.0,
+      "consec": 3,
+      "detect": 0.318,
+      "false": 0.026
+    },
+    {
+      "z": 2.5,
+      "consec": 2,
+      "detect": 0.214,
+      "false": 0.016
+    },
+    {
+      "z": 3.0,
+      "consec": 2,
+      "detect": 0.042,
+      "false": 0.0
+    }
+  ],
+  "fooled": 0.776,
+  "blind": 0.044
+}

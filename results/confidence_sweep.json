@@ -1,0 +1,26 @@
+[
+  {
+    "beta": 0.5,
+    "detect": 0.1825,
+    "false": 0.2025,
+    "fooled": 0.2675
+  },
+  {
+    "beta": 1.0,
+    "detect": 0.4275,
+    "false": 0.2625,
+    "fooled": 0.495
+  },
+  {
+    "beta": 2.0,
+    "detect": 0.5925,
+    "false": 0.5825,
+    "fooled": 0.9575
+  },
+  {
+    "beta": 4.0,
+    "detect": 0.055,
+    "false": 0.9925,
+    "fooled": 1.0
+  }
+]

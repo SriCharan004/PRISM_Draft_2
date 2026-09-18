@@ -1,0 +1,30 @@
+[
+  {
+    "ind_lead": 0,
+    "external_only_detect": 0.22,
+    "external_only_early": 0.01,
+    "prism_detect": 0.385,
+    "prism_early": 0.0525
+  },
+  {
+    "ind_lead": 1,
+    "external_only_detect": 0.23,
+    "external_only_early": 0.015,
+    "prism_detect": 0.4025,
+    "prism_early": 0.0725
+  },
+  {
+    "ind_lead": 2,
+    "external_only_detect": 0.2475,
+    "external_only_early": 0.0225,
+    "prism_detect": 0.4275,
+    "prism_early": 0.095
+  },
+  {
+    "ind_lead": 3,
+    "external_only_detect": 0.265,
+    "external_only_early": 0.0325,
+    "prism_detect": 0.435,
+    "prism_early": 0.1225
+  }
+]

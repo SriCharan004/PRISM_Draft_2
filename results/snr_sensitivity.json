@@ -1,0 +1,20 @@
+[
+  {
+    "ind_peak": 0.6,
+    "detect": 0.2175,
+    "early": 0.045,
+    "false": 0.2625
+  },
+  {
+    "ind_peak": 1.2,
+    "detect": 0.4275,
+    "early": 0.095,
+    "false": 0.2625
+  },
+  {
+    "ind_peak": 1.8,
+    "detect": 0.6125,
+    "early": 0.2,
+    "false": 0.2625
+  }
+]

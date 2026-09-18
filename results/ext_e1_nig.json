@@ -1,0 +1,54 @@
+{
+  "gaussian": {
+    "fixed_variance|severity_only": {
+      "detect": 0.02,
+      "early": 0.0,
+      "false": 0.09333333333333334,
+      "median_delay": 3.0
+    },
+    "fixed_variance|prism": {
+      "detect": 0.37,
+      "early": 0.09,
+      "false": 0.2633333333333333,
+      "median_delay": 2.0
+    },
+    "full_nig|severity_only": {
+      "detect": 0.04,
+      "early": 0.01,
+      "false": 0.14,
+      "median_delay": 3.0
+    },
+    "full_nig|prism": {
+      "detect": 0.42,
+      "early": 0.11,
+      "false": 0.33666666666666667,
+      "median_delay": 2.0
+    }
+  },
+  "heavy_t4": {
+    "fixed_variance|severity_only": {
+      "detect": 0.07,
+      "early": 0.013333333333333334,
+      "false": 0.26,
+      "median_delay": 3.0
+    },
+    "fixed_variance|prism": {
+      "detect": 0.41,
+      "early": 0.10666666666666667,
+      "false": 0.38666666666666666,
+      "median_delay": 2.0
+    },
+    "full_nig|severity_only": {
+      "detect": 0.09666666666666666,
+      "early": 0.013333333333333334,
+      "false": 0.3933333333333333,
+      "median_delay": 3.0
+    },
+    "full_nig|prism": {
+      "detect": 0.4166666666666667,
+      "early": 0.12333333333333334,
+      "false": 0.5,
+      "median_delay": 2.0
+    }
+  }
+}

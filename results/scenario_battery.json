@@ -1,0 +1,200 @@
+{
+  "none": {
+    "severity_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.0
+    },
+    "external_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.0
+    },
+    "internal_only": {
+      "detect": 0.05,
+      "early": 0.0,
+      "anyalarm": 0.1
+    },
+    "prism": {
+      "detect": 0.15,
+      "early": 0.05,
+      "anyalarm": 0.2
+    }
+  },
+  "outlier_up": {
+    "severity_only": {
+      "detect": 0.4,
+      "early": 0.4,
+      "anyalarm": 0.4
+    },
+    "external_only": {
+      "detect": 0.5,
+      "early": 0.45,
+      "anyalarm": 0.55
+    },
+    "internal_only": {
+      "detect": 0.5,
+      "early": 0.45,
+      "anyalarm": 0.55
+    },
+    "prism": {
+      "detect": 0.55,
+      "early": 0.5,
+      "anyalarm": 0.65
+    }
+  },
+  "outlier_down": {
+    "severity_only": {
+      "detect": 0.75,
+      "early": 0.7,
+      "anyalarm": 0.75
+    },
+    "external_only": {
+      "detect": 0.7,
+      "early": 0.7,
+      "anyalarm": 0.7
+    },
+    "internal_only": {
+      "detect": 0.8,
+      "early": 0.75,
+      "anyalarm": 0.8
+    },
+    "prism": {
+      "detect": 0.75,
+      "early": 0.75,
+      "anyalarm": 0.75
+    }
+  },
+  "ind_false": {
+    "severity_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.0
+    },
+    "external_only": {
+      "detect": 0.3,
+      "early": 0.1,
+      "anyalarm": 0.3
+    },
+    "internal_only": {
+      "detect": 0.05,
+      "early": 0.0,
+      "anyalarm": 0.1
+    },
+    "prism": {
+      "detect": 0.35,
+      "early": 0.1,
+      "anyalarm": 0.4
+    }
+  },
+  "subtle": {
+    "severity_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.0
+    },
+    "external_only": {
+      "detect": 0.25,
+      "early": 0.1,
+      "anyalarm": 0.25
+    },
+    "internal_only": {
+      "detect": 0.05,
+      "early": 0.0,
+      "anyalarm": 0.1
+    },
+    "prism": {
+      "detect": 0.35,
+      "early": 0.05,
+      "anyalarm": 0.4
+    }
+  },
+  "gradual": {
+    "severity_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.05
+    },
+    "external_only": {
+      "detect": 0.2,
+      "early": 0.1,
+      "anyalarm": 0.2
+    },
+    "internal_only": {
+      "detect": 0.05,
+      "early": 0.0,
+      "anyalarm": 0.25
+    },
+    "prism": {
+      "detect": 0.5,
+      "early": 0.05,
+      "anyalarm": 0.55
+    }
+  },
+  "blind": {
+    "severity_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.05
+    },
+    "external_only": {
+      "detect": 0.0,
+      "early": 0.0,
+      "anyalarm": 0.05
+    },
+    "internal_only": {
+      "detect": 0.05,
+      "early": 0.0,
+      "anyalarm": 0.25
+    },
+    "prism": {
+      "detect": 0.1,
+      "early": 0.05,
+      "anyalarm": 0.3
+    }
+  },
+  "abrupt": {
+    "severity_only": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    },
+    "external_only": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    },
+    "internal_only": {
+      "detect": 0.95,
+      "early": 0.95,
+      "anyalarm": 1.0
+    },
+    "prism": {
+      "detect": 0.95,
+      "early": 0.95,
+      "anyalarm": 1.0
+    }
+  },
+  "heavy": {
+    "severity_only": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    },
+    "external_only": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    },
+    "internal_only": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    },
+    "prism": {
+      "detect": 1.0,
+      "early": 1.0,
+      "anyalarm": 1.0
+    }
+  }
+}
