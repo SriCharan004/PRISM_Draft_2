@@ -62,7 +62,7 @@ faithful environment the canonical results hash is:
 5. **Arbitrary inflection point** — holds for K ∈ {16, 30}.
 
 ## Citation
-Wootla, S.S.S.C., Mudigonda, S.S., Gupta, R.Y., KVSS, K., & Sivateja, A. (2026).
+Wootla Satya Sai Sri Charan, Mudigonda Satya Sai, Rohan Yashraj Gupta, KVS Kasyap, & Sivateja Arunachala (2026).
 *PRISM: Predictor and Indicator Sequential Monitoring for Anticipating Loss-Cost
 Trend Inflections.* CAS E-Forum (forthcoming).
 
