@@ -1,0 +1,10 @@
+{
+  "seed": 861002,
+  "K": 24,
+  "n_claims": 95118,
+  "claims_q0": 2000,
+  "prism_first": 33,
+  "bocpd_first": -1,
+  "bocpd_max": 0.20525250498991351,
+  "baseline_slope_qtr": 0.0076090165444302775
+}

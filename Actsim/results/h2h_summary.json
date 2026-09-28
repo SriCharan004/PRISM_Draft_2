@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "n": 80,
+    "n_ref": 100,
+    "spike": 0.16,
+    "filter": "centered Hampel h=2 k=3",
+    "sd_raw": 0.015120640356603965,
+    "sd_flt": 0.014599943472771333,
+    "thr": 2.073877867979625
+  },
+  "summary": {
+    "abrupt": {
+      "BOCPD": {
+        "anyalarm": 1.0,
+        "detect": 1.0,
+        "eventual": 1.0,
+        "late": 0.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 1.0,
+        "detect": 1.0,
+        "eventual": 1.0,
+        "late": 0.0
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 1.0,
+        "detect": 0.988,
+        "eventual": 0.988,
+        "late": 0.0
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 1.0,
+        "detect": 1.0,
+        "eventual": 1.0,
+        "late": 0.0
+      }
+    },
+    "gradual": {
+      "BOCPD": {
+        "anyalarm": 0.0,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "late": 0.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 0.012,
+        "detect": 0.012,
+        "eventual": 0.012,
+        "late": 0.0
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 1.0,
+        "detect": 0.2,
+        "eventual": 0.988,
+        "late": 0.788
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 1.0,
+        "detect": 0.225,
+        "eventual": 1.0,
+        "late": 0.775
+      }
+    },
+    "none": {
+      "BOCPD": {
+        "anyalarm": 0.0,
+        "false_alarm": 0.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 0.0,
+        "false_alarm": 0.0
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 0.088,
+        "false_alarm": 0.088
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 0.05,
+        "false_alarm": 0.05
+      }
+    },
+    "subtle": {
+      "BOCPD": {
+        "anyalarm": 0.0,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "late": 0.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 0.0,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "late": 0.0
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 0.875,
+        "detect": 0.075,
+        "eventual": 0.862,
+        "late": 0.788
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 0.812,
+        "detect": 0.038,
+        "eventual": 0.812,
+        "late": 0.775
+      }
+    },
+    "transient_dn": {
+      "BOCPD": {
+        "anyalarm": 1.0,
+        "false_alarm": 1.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 0.025,
+        "false_alarm": 0.025
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 0.125,
+        "false_alarm": 0.125
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 0.05,
+        "false_alarm": 0.05
+      }
+    },
+    "transient_up": {
+      "BOCPD": {
+        "anyalarm": 1.0,
+        "false_alarm": 1.0
+      },
+      "BOCPD+filter": {
+        "anyalarm": 0.062,
+        "false_alarm": 0.062
+      },
+      "PRISM(adjusted)": {
+        "anyalarm": 0.138,
+        "false_alarm": 0.138
+      },
+      "PRISM(adjusted,signal)": {
+        "anyalarm": 0.062,
+        "false_alarm": 0.062
+      }
+    }
+  }
+}

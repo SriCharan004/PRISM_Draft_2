@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "n": 400,
+    "n_ref": 150,
+    "ret_sd": 0.015254013635421823,
+    "channel": "severity",
+    "note": "ActSim loss + native indicators; four variants via prism_sim.evaluate"
+  },
+  "summary": {
+    "abrupt": {
+      "severity_only": {
+        "n": 400,
+        "detect": 0.988,
+        "lo": 0.971,
+        "hi": 0.995,
+        "early": 0.988,
+        "false": 0.013,
+        "lead": 0.01
+      },
+      "external_only": {
+        "n": 400,
+        "detect": 0.96,
+        "lo": 0.936,
+        "hi": 0.975,
+        "early": 0.96,
+        "false": 0.037,
+        "lead": 0.01
+      },
+      "internal_only": {
+        "n": 400,
+        "detect": 0.98,
+        "lo": 0.961,
+        "hi": 0.99,
+        "early": 0.98,
+        "false": 0.015,
+        "lead": 0.02
+      },
+      "prism": {
+        "n": 400,
+        "detect": 0.94,
+        "lo": 0.912,
+        "hi": 0.959,
+        "early": 0.94,
+        "false": 0.048,
+        "lead": 0.04
+      },
+      "mcnemar_prism_vs_severity": {
+        "prism_only": 1,
+        "sev_only": 20,
+        "p": 2.09808349609375e-05
+      }
+    },
+    "gradual": {
+      "severity_only": {
+        "n": 400,
+        "detect": 0.003,
+        "lo": 0.0,
+        "hi": 0.014,
+        "early": 0.0,
+        "false": 0.01,
+        "lead": -4.0
+      },
+      "external_only": {
+        "n": 400,
+        "detect": 0.115,
+        "lo": 0.087,
+        "hi": 0.15,
+        "early": 0.005,
+        "false": 0.02,
+        "lead": -2.63
+      },
+      "internal_only": {
+        "n": 400,
+        "detect": 0.14,
+        "lo": 0.109,
+        "hi": 0.177,
+        "early": 0.005,
+        "false": 0.01,
+        "lead": -5.29
+      },
+      "prism": {
+        "n": 400,
+        "detect": 0.507,
+        "lo": 0.459,
+        "hi": 0.556,
+        "early": 0.06,
+        "false": 0.035,
+        "lead": -3.16
+      },
+      "mcnemar_prism_vs_severity": {
+        "prism_only": 203,
+        "sev_only": 1,
+        "p": 1.5946476649519176e-59
+      }
+    }
+  }
+}

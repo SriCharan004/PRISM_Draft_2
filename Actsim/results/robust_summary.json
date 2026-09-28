@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "n": 80,
+    "n_ref": 100,
+    "spike": 0.16,
+    "filter": "centered Hampel h=2 k=3"
+  },
+  "summary": {
+    "baseline": {
+      "abrupt": {
+        "internal_signal": {
+          "anyalarm": 1.0,
+          "detect": 0.988,
+          "eventual": 0.988
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "detect": 0.988,
+          "eventual": 0.988
+        }
+      },
+      "gradual": {
+        "internal_signal": {
+          "anyalarm": 1.0,
+          "detect": 0.212,
+          "eventual": 0.988
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "detect": 0.262,
+          "eventual": 0.988
+        }
+      },
+      "none": {
+        "internal_signal": {
+          "anyalarm": 0.038,
+          "false_alarm": 0.038
+        },
+        "internal_hazard": {
+          "anyalarm": 0.1,
+          "false_alarm": 0.1
+        }
+      },
+      "subtle": {
+        "internal_signal": {
+          "anyalarm": 0.862,
+          "detect": 0.062,
+          "eventual": 0.85
+        },
+        "internal_hazard": {
+          "anyalarm": 0.925,
+          "detect": 0.112,
+          "eventual": 0.912
+        }
+      },
+      "transient_dn": {
+        "internal_signal": {
+          "anyalarm": 0.038,
+          "false_alarm": 0.038
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "false_alarm": 1.0
+        }
+      },
+      "transient_up": {
+        "internal_signal": {
+          "anyalarm": 0.25,
+          "false_alarm": 0.25
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "false_alarm": 1.0
+        }
+      }
+    },
+    "robust": {
+      "abrupt": {
+        "internal_signal": {
+          "anyalarm": 1.0,
+          "detect": 1.0,
+          "eventual": 1.0
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "detect": 0.988,
+          "eventual": 0.988
+        }
+      },
+      "gradual": {
+        "internal_signal": {
+          "anyalarm": 1.0,
+          "detect": 0.225,
+          "eventual": 1.0
+        },
+        "internal_hazard": {
+          "anyalarm": 1.0,
+          "detect": 0.2,
+          "eventual": 0.988
+        }
+      },
+      "none": {
+        "internal_signal": {
+          "anyalarm": 0.05,
+          "false_alarm": 0.05
+        },
+        "internal_hazard": {
+          "anyalarm": 0.088,
+          "false_alarm": 0.088
+        }
+      },
+      "subtle": {
+        "internal_signal": {
+          "anyalarm": 0.812,
+          "detect": 0.038,
+          "eventual": 0.812
+        },
+        "internal_hazard": {
+          "anyalarm": 0.875,
+          "detect": 0.075,
+          "eventual": 0.862
+        }
+      },
+      "transient_dn": {
+        "internal_signal": {
+          "anyalarm": 0.05,
+          "false_alarm": 0.05
+        },
+        "internal_hazard": {
+          "anyalarm": 0.125,
+          "false_alarm": 0.125
+        }
+      },
+      "transient_up": {
+        "internal_signal": {
+          "anyalarm": 0.062,
+          "false_alarm": 0.062
+        },
+        "internal_hazard": {
+          "anyalarm": 0.138,
+          "false_alarm": 0.138
+        }
+      }
+    }
+  }
+}

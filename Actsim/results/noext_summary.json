@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "n": 120,
+    "n_ref": 100,
+    "ret_sd": 0.01512026306896296,
+    "thr_int": 1.808244889879567,
+    "detector_sig_d": 0.01512026306896296,
+    "book": {
+      "claims_q0": 4000.0,
+      "sev_sigma": 0.5,
+      "class_rel": [
+        0.6,
+        1.0,
+        1.8
+      ],
+      "class_mix": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "blocks": 8
+    },
+    "external_used": false,
+    "note": "Loss data from CAS ActSim, aggregated to quarterly mean severity. No external indicators used."
+  },
+  "summary": {
+    "gradual": {
+      "severity_only": {
+        "n": 120,
+        "detect": 0.0,
+        "detect_lo": -0.0,
+        "detect_hi": 0.031,
+        "early": 0.0,
+        "false_alarm": 0.0,
+        "mean_lead": null
+      },
+      "internal_only": {
+        "n": 120,
+        "detect": 0.142,
+        "detect_lo": 0.09,
+        "detect_hi": 0.215,
+        "early": 0.0,
+        "false_alarm": 0.0,
+        "mean_lead": -5.53
+      },
+      "internal_sig": {
+        "n": 120,
+        "detect": 0.283,
+        "detect_lo": 0.21,
+        "detect_hi": 0.37,
+        "early": 0.0,
+        "false_alarm": 0.008,
+        "mean_lead": -5.26
+      }
+    },
+    "none": {
+      "severity_only": {
+        "n": 120,
+        "detect": null,
+        "detect_lo": null,
+        "detect_hi": null,
+        "early": null,
+        "false_alarm": 0.033,
+        "mean_lead": null
+      },
+      "internal_only": {
+        "n": 120,
+        "detect": null,
+        "detect_lo": null,
+        "detect_hi": null,
+        "early": null,
+        "false_alarm": 0.1,
+        "mean_lead": null
+      },
+      "internal_sig": {
+        "n": 120,
+        "detect": null,
+        "detect_lo": null,
+        "detect_hi": null,
+        "early": null,
+        "false_alarm": 0.058,
+        "mean_lead": null
+      }
+    },
+    "sudden": {
+      "severity_only": {
+        "n": 120,
+        "detect": 1.0,
+        "detect_lo": 0.969,
+        "detect_hi": 1.0,
+        "early": 1.0,
+        "false_alarm": 0.0,
+        "mean_lead": 0.0
+      },
+      "internal_only": {
+        "n": 120,
+        "detect": 1.0,
+        "detect_lo": 0.969,
+        "detect_hi": 1.0,
+        "early": 0.992,
+        "false_alarm": 0.0,
+        "mean_lead": -0.01
+      },
+      "internal_sig": {
+        "n": 120,
+        "detect": 1.0,
+        "detect_lo": 0.969,
+        "detect_hi": 1.0,
+        "early": 0.1,
+        "false_alarm": 0.0,
+        "mean_lead": -1.1
+      }
+    }
+  }
+}

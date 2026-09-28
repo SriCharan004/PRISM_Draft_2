@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "n": 80,
+    "n_ref": 100,
+    "sd_raw": 0.015001553615053457,
+    "sd_flt": 0.014378462730709977,
+    "thr": 2.0445929236893,
+    "ramp": 8,
+    "note": "PRISM(adjusted)=Hampel+internal hazard"
+  },
+  "summary": {
+    "flat": {
+      "ratio": 1.0,
+      "bocpd": {
+        "anyalarm": 0.025,
+        "false_alarm": 0.025
+      },
+      "prism": {
+        "anyalarm": 0.112,
+        "false_alarm": 0.112
+      }
+    },
+    "gentle": {
+      "ratio": 1.5,
+      "bocpd": {
+        "anyalarm": 0.025,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "median_lag": null
+      },
+      "prism": {
+        "anyalarm": 0.65,
+        "detect": 0.025,
+        "eventual": 0.6,
+        "median_lag": 12.0
+      }
+    },
+    "mild": {
+      "ratio": 2.0,
+      "bocpd": {
+        "anyalarm": 0.025,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "median_lag": null
+      },
+      "prism": {
+        "anyalarm": 0.988,
+        "detect": 0.062,
+        "eventual": 0.938,
+        "median_lag": 9.0
+      }
+    },
+    "steep": {
+      "ratio": 2.5,
+      "bocpd": {
+        "anyalarm": 0.025,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "median_lag": null
+      },
+      "prism": {
+        "anyalarm": 1.0,
+        "detect": 0.162,
+        "eventual": 0.95,
+        "median_lag": 7.0
+      }
+    },
+    "very_steep": {
+      "ratio": 3.0,
+      "bocpd": {
+        "anyalarm": 0.025,
+        "detect": 0.0,
+        "eventual": 0.0,
+        "median_lag": null
+      },
+      "prism": {
+        "anyalarm": 1.0,
+        "detect": 0.4,
+        "eventual": 0.95,
+        "median_lag": 7.0
+      }
+    }
+  }
+}
